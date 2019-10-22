@@ -1,0 +1,58 @@
+.header {
+  background-color: #1f2535;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding-top: 15px;
+}
+
+.content-header {
+  margin: 80px;
+}
+
+.content-header > h1,
+p {
+  color: white;
+}
+
+.content-header > h1 {
+  font-size: 5em;
+  margin-bottom: 0px;
+}
+
+.content-header > p {
+  font-size: 1.5em;
+  margin-top: 0px;
+}
+
+button {
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e2534;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 120px 50px 120px;
+}
+
+.cards > div > img {
+  margin-left: -25px;
+}
+
+.cards > div > h2 {
+  font-size: 1.7em;
+}
+
+.cards > div > p {
+  color: grey;
+  font-size: 1.4em;
+}
